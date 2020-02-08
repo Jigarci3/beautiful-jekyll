@@ -38,17 +38,6 @@ Edit the `_config.yml` file to change all the settings to reflect your site.  Th
 
 You can now visit your shiny new website, which will be seeded with several sample blog posts and a couple other pages.
 
-<style>
-
-.gs-section-01 h3 { 
-     color: red }
-
-.gs-section-01 p {
-     font-size: 30px;
-}
-
-</style>
-
 ---
 
 See how easy that is? I wasn't lying - it really can be done in two minutes.
