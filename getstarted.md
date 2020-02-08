@@ -26,7 +26,14 @@ Here is a 40-second video showing how to get started, with the specific steps be
 ### 1. Fork the Beautiful Jekyll repository 
 
 Fork the [repository](https://github.com/daattali/beautiful-jekyll) by clicking the Fork button on the top right corner in GitHub.
-</div>
+
+<div class="pretty-text">
+
+                 <h1>  {{ page.title }}  </h1>
+
+                          {{ content }}
+
+               </div>
 
 ### 2. Rename the repository to `yourusername.github.io`
 
@@ -37,6 +44,17 @@ This will create a GitHub User page ready with the **Beautiful Jekyll** template
 Edit the `_config.yml` file to change all the settings to reflect your site.  The settings in the file are fairly self-explanatory and I added comments inside the file to help you further.  Every time you make a change to any file, your website will get rebuilt and should be updated at `yourusername.github.io` within a minute.
 
 You can now visit your shiny new website, which will be seeded with several sample blog posts and a couple other pages.
+
+<style>
+
+.gs-section-01 h3 { 
+     color: red }
+
+.gs-section-01 p {
+     font-size: 30px;
+}
+
+</style>
 
 ---
 
