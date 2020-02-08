@@ -1,109 +1,46 @@
-# --- Serving options --- #
+---
+layout: page
+title: Getting started
+subtitle: How to use Beautiful Jekyll
+bigimg: /img/start.jpg
+---
 
-# url is the full website URL
-# baseurl is the website's URL without the hostname
+**Beautiful Jekyll** is a ready-to-use template to make help you create an awesome Jekyll or GitHub Pages website quickly. 
 
-# If you are building a simple GitHub user page (username.github.io) then use these settings:
-#url: "http://username.github.io"
-#baseurl: ""
+To learn how you can use **Beautiful Jekyll** to create your website in minutes, go to the [Beautiful Jekyll GitHub page](https://github.com/daattali/beautiful-jekyll#readme).
 
-# If you are building a GitHub project page then use these settings:
-url: "http://daattali.github.io/beautiful-jekyll"
-baseurl: "/beautiful-jekyll"
 
-# Of course don't forget to change the username and projectname to YOUR username and project
+<div class="get-started-wrap">
+  <a class="btn btn-success btn-lg get-started-btn" href="https://github.com/daattali/beautiful-jekyll#readme">Get Started!</a>
+</div>
+<br/>
 
-# Name of website
-title: Beautiful Jekyll
+## Overview of steps required
 
-# Short description of your site
-description: Quickly build a beautiful Jekyll website
+There are only three simple steps, so using **Beautiful Jekyll** is *literally* as easy as 1-2-3 :)    
 
-# --- Navigation bar options --- #
+Here is a 40-second video showing how to get started, with the specific steps below.  For a more complete installation guide, [visit the Beautiful Jekyll page](https://github.com/daattali/beautiful-jekyll#readme).
 
-# Image to show in the navigation bar - image must be a square (width = height)
-# Remove this parameter if you don't want an image in the navbar
-avatar: "/img/avatar-icon.png"
+<img src="../img/install-steps.gif" style="width:100%;" alt="Installation steps" />
 
-# List of links in the navigation bar
-navbar-links:
-  Home: ""
-  Resources:
-    - Getting started: "getstarted"
-    - Featured users: "featured-users"
-    - Project page: "https://github.com/daattali/beautiful-jekyll#readme"
-  About me: "http://deanattali.com"
-  Support me: "http://deanattali.com/aboutme/#feed-meeee"
+### 1. Fork the Beautiful Jekyll repository 
 
-# --- Footer options --- #
+Fork the [repository](https://github.com/daattali/beautiful-jekyll) by clicking the Fork button on the top right corner in GitHub.
 
-# Change all these values or delete the ones you don't want.
-# Important: you must keep the "name" parameter, everything else you can remove
-author:
-  name: Dean Attali
-  email: "daattali@gmail.com"
-  facebook: deanattali
-  github: daattali
-  twitter: daattali
-  linkedin: "pub/dean-attali/8/946/143"
-  stackoverflow: "users/3943160/daattali"
- 
-# Select which links to show in the footer
-footer-links-active:
-  rss: false
-  facebook: true
-  email: true
-  twitter: true
-  github: true
-  linkedin: false
-  stackoverflow: false
-  
-share-links-active:
-  twitter: true
-  facebook: true
-  google: false
-  linkedin: true
+### 2. Rename the repository to `yourusername.github.io`
 
-# How to display the link to the website in the footer
-# Remove this if you don't want a link in the footer
-url-pretty: "deanattali.com/beautiful-jekyll"  # eg. "deanattali.com/beautiful-jekyll"
+This will create a GitHub User page ready with the **Beautiful Jekyll** template that will be available at http://yourusername.github.io (sometimes it takes a few minutes).
 
-# --- Misc --- #
+### 3. Customize settings
 
-# Fill in your Disqus shortname (NOT the userid) if you want to support Disqus comments
-#disqus: ""
+Edit the `_config.yml` file to change all the settings to reflect your site.  The settings in the file are fairly self-explanatory and I added comments inside the file to help you further.  Every time you make a change to any file, your website will get rebuilt and should be updated at `yourusername.github.io` within a minute.
 
-# Fill in your Google Analytics ID to track your website using GA
-google_analytics: "UA-59820529-1"
+You can now visit your shiny new website, which will be seeded with several sample blog posts and a couple other pages.
 
-# --- Don't need to touch anything below here (but you can if you want) --- #
+---
 
-# Output options (more information on Jekyll's site)
-timezone: "America/Vancouver"
-markdown: kramdown
-highlighter: rouge
-permalink: /:year-:month-:day-:title/
-paginate: 5
+See how easy that is? I wasn't lying - it really can be done in two minutes.
 
-# Default YAML values (more information on Jekyll's site)
-defaults:
-  -
-    scope:
-      path: ""
-      type: "posts"
-    values:
-      layout: "post"
-      comments: true  # add comments to all blog posts 
-      show-share: true # add sharing buttons to all blog posts
-      social-share: true # add social media sharing buttons to all blog posts
-  -
-    scope:
-      path: "" # all files
-    values:
-      layout: "page"
-
-# Exclude these files from production site
-exclude:
-  - CNAME
-  - LICENSE
-  - README.md
+<div class="get-started-wrap">
+  <a class="btn btn-success btn-lg get-started-btn" href="https://github.com/daattali/beautiful-jekyll#readme">Get Started!</a>
+</div>
