@@ -9,7 +9,7 @@ layout: "default"
 
 <h2> Ryan vs Ryan: Liquid Table Demo </h2>
 
-<table id="ryan-v-ryan">
+<table id="img/ryan-v-ryan.jpg">
 
 <thead>
   <tr>
