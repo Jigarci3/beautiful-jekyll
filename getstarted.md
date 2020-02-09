@@ -69,6 +69,9 @@ See how easy that is? I wasn't lying - it really can be done in two minutes.
 .gs-section-02 p {
      font-size: 10px;
 }
+.gs-section-02 p {
+     font-weight: bold;
+ }
 .gs-section-03 h3 { 
      color: gold }
 
