@@ -59,6 +59,9 @@ See how easy that is? I wasn't lying - it really can be done in two minutes.
 
 .gs-section-01 h3 { 
      color: red }
+     
+.gs-section-01 h3 { 
+     text-transform: uppercase}
 
 .gs-section-01 p {
      font-size: 30px;
