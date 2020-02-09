@@ -84,5 +84,8 @@ See how easy that is? I wasn't lying - it really can be done in two minutes.
 .gs-section-03 p {
      font-family: Lucida Console;
 }
+.gs-section-03 p {
+     background-color: #eee;
+}
 
 </style>
