@@ -76,7 +76,7 @@ See how easy that is? I wasn't lying - it really can be done in two minutes.
      font-size: 22px;
 }
 .gs-section-03 p {
-     font-family: Consolas;
+     font-family: Lucida Console;
 }
 
 </style>
