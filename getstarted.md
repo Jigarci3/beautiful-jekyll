@@ -72,7 +72,11 @@ See how easy that is? I wasn't lying - it really can be done in two minutes.
 .gs-section-03 h3 { 
      color: gold }
 
-.gs-section-01 p {
+.gs-section-03 p {
      font-size: 22px;
 }
+.gs-section-03 p {
+     font-family: Consolas;
+}
+
 </style>
