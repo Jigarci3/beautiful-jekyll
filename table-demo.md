@@ -1,4 +1,8 @@
 ---
+layout: default
+---
+  
+  ---
 layout: liquid-table
 title: 'amiright?'
 reynolds:
